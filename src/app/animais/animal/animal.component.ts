@@ -23,7 +23,6 @@ export class AnimalComponent implements OnInit {
   }
 
   get url(): string {
-    console.log(this.urlOriginal)
     return this.urlOriginal;
   }
 

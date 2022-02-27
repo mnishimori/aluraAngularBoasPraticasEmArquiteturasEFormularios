@@ -38,4 +38,7 @@ export class AnimaisService {
         })
       );
   }
+
+  upload(descricao: string, permiteComentario: boolean, arquivo: File) {
+  }
 }
